@@ -52,6 +52,6 @@ end
 function [ModulatingSignal,ModulatedSignal,t] = PrepareSignals(w0,Fineness,P_k,a) % P_k = percent change in amplitude between carriers, a = starting amplitude
     T = 2*pi/w0;
     t = (-T/2):Fineness:(3*T/2);
-    ModulatingSignal = a+(a*P_k/T)*t; %a*exp((a*P_k/T)*t)
+    ModulatingSignal = a+(a*P_k/T)*t;
     ModulatedSignal  = ModulatingSignal.*cos(w0.*t);
 end

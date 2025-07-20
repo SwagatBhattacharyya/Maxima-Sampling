@@ -1,0 +1,1 @@
+Subfolder labels correspond to figure numbers in the manuscript. Each subfolder will have individual readmes indicating to which subfigure each script corresponds.
